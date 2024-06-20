@@ -1,0 +1,75 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #af2222c4;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-self: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+#resume ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #af2222c4;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 0.5rem 0;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    margin: 0.5rem 0; 
+}
+
+button {
+    padding: 0.5rem;
+    background-color: #af2222c4;
+    color: rgb(0, 0, 0);
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #af2222c4;
+}
